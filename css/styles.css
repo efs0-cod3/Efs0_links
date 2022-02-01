@@ -10,6 +10,18 @@ section{
     height: 100vh;
     color: white;
 }
+.profile{
+    width: 195px;
+    height: 185px;
+    border-radius: 50%;
+    border: solid #EBE645 4px;
+    margin-bottom: 1.5rem;
+    transition: transform .5s ease-in-out;
+}
+.profile:hover{
+    transform: scale(110%);
+    transition: transform .5s ease-in-out;
+}
 h1{
     font-size: 3rem;
     font-weight: 700;
@@ -32,6 +44,8 @@ button{
     font-size: 1.2rem;
     color: #577BC1;
     border: none;
+    transition: transform .5s ease-in-out;
+
 }
 
 .bx-mail-send{
@@ -39,23 +53,27 @@ button{
 }
 
 .gh:hover{
+    transition: transform .3s ease-in-out;
     transform: translatex(10px);
     box-shadow: 0 0 8px 0 rgba(0, 0, 0,.7);
     background: rgb(45,51,58);
     color: rgb(204,217,228);
 }
 .tw:hover{
+    transition: transform .3s ease-in-out;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0,.7);
     transform: translatex(-10px);
     background: rgb(0, 0, 0);
 }
 .email:hover{
+    transition: transform .3s ease-in-out;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0,.7);
     transform: translatex(10px);
     background: white;
     color: rosybrown;
 }
 .fe:hover{
+    transition: transform .3s ease-in-out;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0,.7);
     transform: translatex(-10px);
     background: rgb(251,199,198);
